@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(9, 9, 9);
+    color: white;
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  
+
+}
+
+li{
+    display: flex;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+    position: relative;
+}
+.head1{
+    height: 120px;
+    width: 1519.5px;
+    background-color: gray;
+}
+.ab{
+    width: 400px;
+    height: 600px;
+    background-color: antiquewhite;
+    position: absolute;
+}
+.image{
+    background-color: gray;
+ 
+    display:flex;
+flex-wrap: wrap;
+}
+
+
+.one{
+    border-color: black;
+    border-width:0.5px;
+    border-style: solid;
+    width: 220px;
+    height: 220px;
+    margin: 15px;
+}
+.b{
+   
+}
