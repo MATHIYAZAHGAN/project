@@ -26,12 +26,47 @@ li{
     width: 1519.5px;
     background-color: gray;
 }
+.container{
+width: 100%;
+overflow: auto;
+}
+.container .image{
+    width: 70%;
+    float: right;
+    }
 .ab{
-    width: 400px;
-    height: 600px;
-    background-color: antiquewhite;
+    
+    width: 455.8px;
+    height: 1000px;
+    background-color: rgb(244, 209, 167);
     position: absolute;
 }
+#size{
+    color: red;
+    height: 70px;
+    width: 455.8px;
+
+}
+#PATTERN{
+    color: red;
+    height: 70px;
+    width: 455.8px;
+
+}
+#FIT{
+    color: red;
+    height: 70px;
+    width: 455.8px;
+
+}
+#dress{
+    color: red;
+    height: 70px;
+
+    width: 455.8px;
+
+}
+
 .image{
     background-color: gray;
  
