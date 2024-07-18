@@ -1,88 +1,55 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-nav{
-    background-color: rgb(9, 9, 9);
+.a1{
+    background-color: black;
     color: white;
+    text-align: center;
+    height: auto;
+    width: auto;
+    padding: 3px;
+
+}
+.a12a{
+    height: 2px;
+    width: 30px;
+    margin: 3px;
+    padding: 3px;
+    background-color: black;
+}
+.a2{
     display: flex;
-    padding: 15px;
     flex-wrap: wrap;
     justify-content: space-between;
-
-  
-
 }
 
-li{
+#a12b{
+    font-weight: bold;
+    font-size: 25px;
+}
+.a3{ 
+height: 1000px;
+background-color: gray;
+}
+.a4{
+    margin: 10px;
+    padding: 10px;
     display: flex;
-    float: left;
-    margin: 3px;
-    padding: 5px;
-    position: relative;
+    gap: 20px;
+    justify-content: center;
 }
-.head1{
-    height: 120px;
-    width: 1519.5px;
-    background-color: gray;
-}
-.container{
-width: 100%;
-overflow: auto;
-}
-.container .image{
-    width: 70%;
-    float: right;
-    }
-.ab{
-    
-    width: 455.8px;
-    height: 1000px;
-    background-color: rgb(244, 209, 167);
-    position: absolute;
-}
-#size{
-    color: red;
-    height: 70px;
-    width: 455.8px;
-
-}
-#PATTERN{
-    color: red;
-    height: 70px;
-    width: 455.8px;
-
-}
-#FIT{
-    color: red;
-    height: 70px;
-    width: 455.8px;
-
-}
-#dress{
-    color: red;
-    height: 70px;
-
-    width: 455.8px;
-
+#a41{
+    border-radius: 50px;
+    padding: 10px;
 }
 
-.image{
-    background-color: gray;
- 
-    display:flex;
-flex-wrap: wrap;
-}
-
-
-.one{
-    border-color: black;
-    border-width:0.5px;
-    border-style: solid;
-    width: 220px;
-    height: 220px;
-    margin: 15px;
-}
-.b{
-   
+.a5{
+        border-color: black;
+        border-width:0.5px;
+        border-style: solid;
+        width: 220px;
+        height: 220px;
+        margin: 15px;
 }
