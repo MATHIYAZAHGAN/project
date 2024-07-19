@@ -23,6 +23,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 10px;
 }
 
 #a12b{
@@ -45,11 +46,98 @@ background-color: gray;
     padding: 10px;
 }
 
-.a5{
+.a50{
         border-color: black;
         border-width:0.5px;
-        border-style: solid;
+       border-style: solid;
         width: 220px;
         height: 220px;
         margin: 15px;
+        display: inline-block;
+        justify-content: space-evenly;
+}
+.a6{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.a7{
+       text-align: center;
+    }
+.a8{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px;
+    padding: 10px;
+
+}
+#a80{
+    border-radius: 50px;
+    padding: 10px;
+
+}
+.a90{
+    border-color: black;
+    border-width:0.5px;
+   border-style: solid;
+    width: 220px;
+    height: 220px;
+    margin: 15px;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+.a10{
+    height: 500px;
+    background-color: rgb(70, 62, 62);
+}
+#a10{
+    height: 200px;
+    background-color: aliceblue;
+}
+.a11{
+    display: flex;
+    justify-content: space-around;
+}
+.a110 ol{
+    list-style: none;
+
+}
+.a110 ol li{
+    padding: 10px;
+    
+}
+#a12{
+    padding: 20px;
+    margin-left: 50px;
+}
+#a13{
+    padding: 5px;
+
+    margin-left:60px ;
+}
+.a14{
+    border-bottom: 2px solid black;
+    width: fit-content;
+    margin-left: 70px;
+    padding: 5px;
+}
+.a14 input{
+    border: none;
+    outline: none;
+   
+}
+.a15{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.a12b1{
+    margin: 20px;
+    display: flex;
+    gap: 15px;
+
 }
