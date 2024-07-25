@@ -29,6 +29,7 @@
 #a12b{
     font-weight: bold;
     font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .a3{ 
 height: 1000px;
@@ -40,32 +41,31 @@ background-color: gray;
     display: flex;
     gap: 20px;
     justify-content: center;
+    margin-bottom: 25px;
 }
+
 #a41{
     border-radius: 50px;
     padding: 10px;
 }
-
-.a50{
-        border-color: black;
-        border-width:0.5px;
-       border-style: solid;
-        width: 220px;
-        height: 220px;
-        margin: 15px;
-        display: inline-block;
-        justify-content: space-evenly;
+.a5,.a9{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
 }
+
 .a6{
     margin: 10px;
     padding: 10px;
     display: flex;
     justify-content: center;
     border-radius: 50px;
+    margin-bottom: 25px;
 }
 
 .a7{
        text-align: center;
+       margin-bottom: 25px;
     }
 .a8{
     display: flex;
@@ -73,6 +73,7 @@ background-color: gray;
     gap: 20px;
     margin: 10px;
     padding: 10px;
+    margin-bottom: 25px;
 
 }
 #a80{
@@ -80,20 +81,21 @@ background-color: gray;
     padding: 10px;
 
 }
-.a90{
-    border-color: black;
-    border-width:0.5px;
-   border-style: solid;
-    width: 220px;
-    height: 220px;
-    margin: 15px;
-    display: inline-block;
-    justify-content: space-evenly;
+.a6{
+    margin-bottom: 25px;
 }
-.a10{
+.a60{
+    height: 100px;
+}
+.a55 img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
     height: 500px;
-    background-color: rgb(70, 62, 62);
+    width: 100%;
 }
+
+
 #a10{
     height: 200px;
     background-color: aliceblue;
@@ -101,6 +103,12 @@ background-color: gray;
 .a11{
     display: flex;
     justify-content: space-around;
+}
+.footer{
+    margin-top: 10px;
+}
+.a110{
+    margin-top: 20px;
 }
 .a110 ol{
     list-style: none;
